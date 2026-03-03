@@ -78,14 +78,24 @@ I am a 3rd-year Computer Science student at Gdańsk University of Technology. My
   role: "Contributor",
   url: "https://github.com/KociszewskaMarta/hurtownie_danych",
 )
-- Role: Dara Developer 
+- Role: Data Developer 
   - Designed and implemented database schema for the data warehouse using MSSQL, optimizing for query performance and scalability
   - Implemented scripts to generate synthetic data for testing the ETL pipeline, ensuring data quality and consistency
   - Developed and maintained ETL process using TSQL
   - Represented data models and ETL architecture using PowerBi, facilitating clear communication of data flow and transformations to stakeholders
 
+#project(
+  name: "Algorithmic Financial Analysis (WIG20 Index)",
+  role: "Sole Developer",
+  url: "https://github.com/KociszewskaMarta/MN_proj1",
+)
+- Implemented and analyzed the MACD (Moving Average Convergence Divergence) indicator to generate buy/sell signals for historical WIG20 stock data
+- Developed numerical methods to calculate Exponential Moving Averages (EMA) and signal lines using Python (Pandas) and MATLAB
+- Performed time-series analysis and created data visualizations (using pandas and matplotlib) to evaluate the effectiveness of the trading strategy
+
 
 
 == Skills
-- *Programming Languages*: Python, SQL, C/C++, HTML/CSS, Flutter, Dart
-- *Technologies*: Git, PowerBi, MSSQL, MongoDB,Jupyter Notebooks
+- *Software:* Linux Basics (Ubuntu) | Windows | Docker Basics | Power BI | Git | Jupyter Notebooks |
+- *Languages:* Python | SQL | Dart | HTML/CSS | C++
+- *Technologies:* ETL Processes | Data Warehousing | Flutter | Firebase
