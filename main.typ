@@ -34,6 +34,10 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
+== About Me
+
+I am a 3rd-year Computer Science student at Gdańsk University of Technology. My passion for mathematics and analytical thinking, which began in high school, has naturally drawn me toward data science and analytics. I am particularly interested in using Python and SQL to uncover patterns in data and enjoy using tools like PowerBi to visualize those insights clearly. I am always looking to expand my skills in building data-driven applications that solve real-world problems.
+
 == Education
 
 #edu(
@@ -57,87 +61,31 @@
   
 )
 
-== Work Experience
-
-#work(
-  title: "Subatomic Shepherd and Caffeine Connoisseur",
-  location: "Atomville, CA",
-  company: "Microscopic Circus, Schrodinger's University",
-  dates: dates-helper(start-date: "May 2024", end-date: "Present"),
-)
-- Played God with tiny molecules, making them dance to uncover the secrets of the universe
-- Convinced high-performance computers to work overtime without unions, reducing simulation time by 50%
-- Wowed a room full of nerds with pretty pictures of invisible things and imaginary findings
-
-#work(
-  title: "AI Wrangler and Code Ninja",
-  location: "Silicon Mirage, CA",
-  company: "Organic Stupidity Startup",
-  dates: dates-helper(start-date: "Dec 2023", end-date: "Mar 2024"),
-)
-- Taught robots to predict when (and how much!) humans will empty their wallets at the doctor's office
-- Developed HIPAA-compliant digital signatures, because doctors' handwriting wasn't illegible enough already
-- Turned spaghetti code into a gourmet dish, making other interns drool with envy
-
-#work(
-  title: "Digital Playground Architect",
-  location: "The Cloud",
-  company: "Pixels & Profit Interactive",
-  dates: dates-helper(start-date: "Jun 2020", end-date: "May 2023"),
-)
-- Scaled user base from 10 to 2000+, accidentally becoming a small wealthy nation in the process
-- Crafted Bash scripts so clever they occasionally made other engineers weep with joy
-- Automated support responses, reducing human interaction to a level that would make introverts proud
-- Built a documentation site that actually got read, breaking the ancient RTFM curse
-
-#work(
-  title: "Code Conjurer Intern",
-  location: "Silicon Suburb, CA",
-  company: "Bits & Bytes Consulting",
-  dates: dates-helper(start-date: "Jun 2022", end-date: "Aug 2022"),
-)
-- Developed a cross-platform mobile app that turned every user into a potential paparazzi
-- Led a security overhaul, heroically saving the company from the menace of "password123"
-
 == Projects
 
 #project(
-  name: "Hyperschedule",
-  // Role is optional
-  role: "Maintainer",
-  // Dates is optional
-  dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  // URL is also optional
-  url: "hyperschedule.io",
+  name: "Group Project - Mobile Application for teaching children multiplication tables (ongoing)",
+  role: "Contributor",
+  url: "https://github.com/pieter0100/projektGrupowy",
 )
-- Maintain open-source scheduler used by 7000+ users at the Claremont Consortium with TypeScript, React and MongoDB
-  - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
-- Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
+- Role: Backend Developer & Data Architect
+  - Designed and implemented the NoSQL database schema in Firestore, ensuring efficient data storage and retrieval for the mobile application.
+  - Developed server-side logic using Firebase Cloud functions to handle user authentication, data processing, and integration with the Flutter frontend
+  - Applied analytical problem-solving to manage complex data states and security rules, ensuring seamless synchronization between the Flutter frontend and the database
 
-== Extracurricular Activities
-
-#extracurriculars(
-  activity: "Capture The Flag Competitions",
-  dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
+#project(
+  name: "Group Project - Data Warehouse Architecture & ETL Implementation",
+  role: "Contributor",
+  url: "https://github.com/KociszewskaMarta/hurtownie_danych",
 )
-- Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
-- Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
-  - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
-- Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
+- Role: Dara Developer 
+  - Designed and implemented database schema for the data warehouse using MSSQL, optimizing for query performance and scalability
+  - Implemented scripts to generate synthetic data for testing the ETL pipeline, ensuring data quality and consistency
+  - Developed and maintained ETL process using TSQL
+  - Represented data models and ETL architecture using PowerBi, facilitating clear communication of data flow and transformations to stakeholders
 
-// #extracurriculars(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
 
-// #certificates(
-//   name: "OSCP",
-//   issuer: "Offensive Security",
-//   // url: "",
-//   date: "Oct 2024",
-// )
 
 == Skills
-- *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
-- *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
+- *Programming Languages*: Python, SQL, C/C++, HTML/CSS, Flutter, Dart
+- *Technologies*: Git, PowerBi, MSSQL, MongoDB,Jupyter Notebooks
